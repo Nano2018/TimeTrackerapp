@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+.fixed {
+  position: absolute;
+  background: #ffffff;
+  border: solid;
+  z-index: 10;
+  width: 60%;
+  left: 20%;
+  height: 95%;
+  top: 50%;
+  transform: translateY(-50%);
+  overflow: scroll;
+}
+.title{
+  position: relative;
+  margin-top : -20px;
+  height: 100px;
+  color: white;
+  background-color: aquamarine;
+}
+.title>h1{
+  text-align: center;
+}
+.title > span{
+  vertical-align: center;
+}
+
+.btn-folder{
+  text-align: center;
+  buttom: 0px;
+}
+button{
+  width: 25%;
+}
+.div-tache{
+  width: 60% ;
+}
